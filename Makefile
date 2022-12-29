@@ -14,7 +14,10 @@ start:
 	${DCMD} start
 
 up:
-	${DCMD} up
+	${DCMD} up -d
+
+down:
+	${DCMD} down
 
 
 .PHONY: up start create
